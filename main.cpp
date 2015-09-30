@@ -6,7 +6,7 @@ enum {NEW_ACCOUNT=1, INPUT, WITHDRAW, SHOW_ALL, QUIT};
 
 int main(void) {
 
-	while(1) {
+	while ( 1 ) {
 		int num;
 		system("clear");
 		showMenu();
